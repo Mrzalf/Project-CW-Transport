@@ -1,0 +1,50 @@
+.text {
+    text-align: justify;
+  }
+  
+  .image-with-text img {
+    max-width: 50px; /* Atur lebar maksimum gambar */
+    height: auto; /* Biarkan tinggi gambar disesuaikan secara otomatis */
+    margin-right: 10px; /* Atur spasi antara gambar dan teks */
+  }
+  
+  .image-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Mengatur gambar dan teks menjadi di tengah */
+  }
+  
+  .image-with-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Mengatur jarak antara gambar dan teks */
+    margin-bottom: 10px; /* Atur spasi antara pasangan gambar-teks */
+  }
+  
+  .image-with-text p {
+    margin: 0;
+  }
+  
+  .image-with-title {
+    text-align: center;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Rata tengah teks pada versi desktop */
+  @media (min-width: 992px) {
+    .center-text {
+      text-align: center;
+    }
+  }
+  
+  /* Rata tengah teks pada versi mobile */
+  @media (max-width: 991px) {
+    .center-text {
+      text-align: center;
+    }
+  }
+  

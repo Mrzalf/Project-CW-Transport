@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+/* landing_page */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.mobil {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 700;
+}
+
+
+.card {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.foot {
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+}
+
+
+
+
+/* detail.html */
+.desc {
+    color: #90A3BF;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+}
+
+.title, .spesification {
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+
+}
+
+/* .form-control {
+    background-color: #F6F7F9;
+    border: none;
+} */
+
+
+

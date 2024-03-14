@@ -1,0 +1,15 @@
+.card-img-top {
+    border-radius: 50%; /* Mengubah gambar menjadi bentuk bulat */
+    width: 100px; /* Atur lebar gambar */
+    height: 100px; /* Atur tinggi gambar */
+    margin: 0 auto; /* Posisikan gambar di tengah */
+  }
+  
+  .card {
+    border-radius: 15px; /* Melengkungkan ujung kartu */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+    height: 125%; /* Menetapkan tinggi kartu agar memanjang ke bawah */
+    display: flex; /* Menggunakan flexbox untuk menyesuaikan tinggi dan posisi konten */
+    flex-direction: column; /* Menetapkan arah konten vertikal */
+  }
+  
